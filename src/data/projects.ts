@@ -30,9 +30,9 @@ export type Project = {
 
 export const projectFilters: { value: ProjectStatus | "todos"; label: string }[] = [
   { value: "todos", label: "Todos" },
-  { value: "concluido", label: "Projetos concluídos" },
-  { value: "andamento", label: "Projetos em andamento" },
-  { value: "estudo", label: "Projetos em estudo" },
+  { value: "andamento", label: "Novos projetos" },
+  { value: "concluido", label: "Projetos realizados" },
+  { value: "estudo", label: "Projetos em análise" },
 ];
 
 export const projects: Project[] = [
